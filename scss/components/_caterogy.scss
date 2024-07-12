@@ -1,0 +1,39 @@
+@use "../abstracks";
+.cate {
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 20px 26px;
+        border-radius: 16px;
+        background: var(--background-header-color);
+        &-title {
+            color: var(--text-color-primary);
+            font-size: 2.2rem;
+            font-weight: 700;
+            line-height: 1.46; /* 145.455% */
+            margin-bottom: 6px;
+            @include abstracks.screen(md) {
+                font-size: 1.8rem;
+            }
+        }
+        &-desc {
+            color: var(--text-color-primary);
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.5;
+            @include abstracks.screen(md) {
+                font-size: 1.4rem;
+                line-height: 1.43;
+            }
+        }
+    }
+    &__img {
+        width: 116px;
+        height: 116px;
+        margin-right: 20px;
+        @include abstracks.screen(md) {
+            width: 88px;
+            height: 88px;
+        }
+    }
+}

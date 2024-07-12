@@ -1,0 +1,22 @@
+@use "../abstracks";
+.home {
+    &__container {
+        margin-top: 40px;
+    }
+    &__title {
+        color: var(--text-color-primary);
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 1.42; /* 141.667% */
+        margin-bottom: 20px;
+        @include abstracks.screen(md) {
+            font-size: 2.2rem;
+        }
+    }
+    &__cate {
+        --bs-gutter-x: 51px;
+        @include abstracks.screen(md) {
+            --bs-gutter-y: 20px;
+        }
+    }
+}

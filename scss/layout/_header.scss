@@ -6,7 +6,7 @@
 .top-bar {
     padding: 30px 0;
     position: relative;
-    @include abstracks.breakpoint(md) {
+    @include abstracks.screen(md) {
         padding-right: 10px;
         padding-left: 10px;
     }
@@ -21,7 +21,7 @@
             height: 24px;
         }
     }
-    @include abstracks.breakpoint(md) {
+    @include abstracks.screen(md) {
         padding: 20px 20px 20px 0;
         position: fixed;
         inset: 0 30% 0 0;
@@ -32,7 +32,7 @@
     }
 
     &__item {
-        @include abstracks.breakpoint(md) {
+        @include abstracks.screen(md) {
             width: 100%;
             justify-content: space-between;
         }
@@ -44,7 +44,7 @@
         }
     }
     &__link {
-        @include abstracks.breakpoint(md) {
+        @include abstracks.screen(md) {
             display: flex;
             justify-content: space-between;
             padding: 10px 0;
@@ -99,7 +99,7 @@
 
         filter: var(--color-icon);
 
-        @include abstracks.breakpoint(md) {
+        @include abstracks.screen(md) {
             &-icon {
                 margin-right: 16px;
             }
