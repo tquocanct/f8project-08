@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" class="">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,6 +34,30 @@
 
         <!-- fonts -->
         <link rel="stylesheet" href="assets/fonts/stylesheet.css" />
+
+        <!-- grid -->
+
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
+
+        <!-- scripts -->
+        <script src="./assets/js/scripts.js"></script>
     </head>
-    <body></body>
+    <body>
+        <!-- Header -->
+        <header id="header" class="header"></header>
+        <script>
+            load("#header", "./template/header.html");
+        </script>
+
+        <!--  Main  -->
+
+        <!-- Footer -->
+        <footer id="footer"></footer>
+        <script>
+            load("#footer", "./template/footer.html");
+        </script>
+    </body>
 </html>
