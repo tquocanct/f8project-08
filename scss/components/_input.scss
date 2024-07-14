@@ -1,0 +1,25 @@
+input {
+    background-color: inherit;
+}
+.input {
+    padding: 12px;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--Secondary-Color-Secondary-3);
+    margin: 20px auto;
+    &__style {
+        border: none;
+        width: 90%;
+        color: var(--text-color-primary);
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 26px; /* 144.444% */
+        outline: none;
+        &::placeholder {
+            color: var(--Secondary-Color-Secondary-3);
+        }
+    }
+}

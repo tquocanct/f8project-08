@@ -18,6 +18,7 @@
             position: absolute;
             top: -12px;
             left: var(--arrow-left-pos);
+            filter: var(--background-dropdown-color-2);
         }
     }
     &__column {

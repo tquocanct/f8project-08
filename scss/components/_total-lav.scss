@@ -1,4 +1,19 @@
 .total-lav {
+    &__filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        color: var(--text-color-3);
+        border-radius: 6px;
+        background: var(--background-color-1);
+        padding: 6px 12px;
+        margin-bottom: 20px;
+
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.43; /* 142.857% */
+    }
     &__item {
         position: relative;
         border-radius: 20px;

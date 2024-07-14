@@ -36,4 +36,16 @@ button {
     background: transparent;
 }
 
+.btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: var(--background-button-1);
+    color: var(--text-color-primary);
+    text-align: center;
+    padding: 12px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.45; /* 144.444% */
+}
 // header

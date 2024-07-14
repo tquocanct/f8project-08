@@ -1,7 +1,12 @@
 html.dark {
     --background-header-color: #171c28;
     --background-color-1: #292e39;
+    --background-color-2: #292e39;
     --text-color-primary: #fff;
+    --background-dropdown-color: #292e39;
+    --background-dropdown-color-2: brightness(0) saturate(100%) invert(12%)
+        sepia(35%) saturate(466%) hue-rotate(182deg) brightness(91%)
+        contrast(84%);
     --color-icon: brightness(0) saturate(100%) invert(100%) sepia(0%)
         saturate(17%) hue-rotate(345deg) brightness(106%) contrast(104%);
 }

@@ -1,0 +1,102 @@
+.sign-up {
+    height: 100vh;
+    background-color: var(--bgc-sign-up);
+    &__text-left {
+        width: 412px;
+        color: var(--text-color-primary);
+        text-align: center;
+
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.45; /* 144.444% */
+    }
+    &__right {
+        padding: 50px 130px;
+    }
+    &__title {
+        color: var(--text-color-primary);
+        text-align: center;
+
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 1.47; /* 146.667% */
+        margin-top: 50px;
+        &-desc {
+            margin: 10px 0 60px;
+            width: 430px;
+            color: var(--sign-up-text-color-2);
+            text-align: center;
+
+            /* Medium 15 */
+            font-family: Gordita;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 146.667% */
+        }
+    }
+    &__form {
+        width: 460px;
+    }
+
+    &__default {
+        display: flex;
+        gap: 10px;
+        color: var(--sign-up-text-color-2);
+
+        /* Medium 15 */
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 22px; /* 146.667% */
+        & input {
+            width: 19.5px;
+            height: 18.5px;
+        }
+    }
+
+    &__re-password {
+        color: var(--Blue-Blue, #0071dc);
+        margin-left: auto;
+        margin-bottom: 50px;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.47; /* 146.667% */
+    }
+    &__submit {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    &__with-mail {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 460px;
+        justify-content: center;
+        background: var(--bgc-sign-up);
+        border-radius: 10px;
+        border: 1px solid var(--sign-up-text-color-3);
+        padding: 12px;
+        margin-bottom: 108px;
+    }
+    &__text {
+        width: 460px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: var(--sign-up-text-color-2);
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.45; /* 144.444% */
+        &-link {
+            color: var(--Blue-Blue, #0071dc);
+            /* Medium 18 */
+
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 26px; /* 144.444% */
+        }
+    }
+}
