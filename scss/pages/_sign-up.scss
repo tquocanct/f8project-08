@@ -1,3 +1,4 @@
+@use "../abstracks";
 .sign-up {
     height: 100vh;
     background-color: var(--bgc-sign-up);
@@ -9,9 +10,23 @@
         font-size: 1.8rem;
         font-weight: 500;
         line-height: 1.45; /* 144.444% */
+
+        margin: 30px auto 0;
+    }
+    &__img-left {
+        display: flex;
+        margin: 0 auto;
     }
     &__right {
         padding: 50px 130px;
+    }
+    &__row {
+        display: flex;
+        align-items: center;
+        @include abstracks.screen(md) {
+            flex-wrap: nowrap;
+            overflow: auto;
+        }
     }
     &__title {
         color: var(--text-color-primary);

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Login</title>
 
         <!-- favicon -->
         <link
@@ -45,5 +45,109 @@
         <!-- scripts -->
         <script src="./assets/js/scripts.js"></script>
     </head>
-    <body></body>
+    <body>
+        <div class="sign-up">
+            <div class="container">
+                <div class="sign-up__row row row-cols-2 row-cols-md-1">
+                    <div class="col sign-up__left d-md-none">
+                        <img
+                            src="./assets/image/sign-up/item-1.svg"
+                            alt=""
+                            class="sign-up__img-left"
+                        />
+                        <p class="sign-up__text-left">
+                            The best of luxury brand values, high quality
+                            products, and innovative services
+                        </p>
+                    </div>
+                    <div class="col">
+                        <section class="sign-up__right">
+                            <a href="/" class="logo d-flex">
+                                <img
+                                    src="./assets/icons/logo-icon.svg"
+                                    alt=""
+                                    class="logo__img"
+                                />
+
+                                <h2 class="logo__name">grocerymart</h2>
+                            </a>
+                            <h1 class="sign-up__title">Hello Again!</h1>
+                            <p class="sign-up__title-desc">
+                                Welcome back to sign in. As a returning
+                                customer, you have access to your previously
+                                saved all information.
+                            </p>
+                            <form action="" class="sign-up__form">
+                                <!-- email -->
+                                <div class="input">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        class="input__style"
+                                        placeholder="email"
+                                    />
+                                    <img
+                                        src="./assets/icons/message.svg"
+                                        alt=""
+                                        class="input__icon"
+                                    />
+                                </div>
+                                <!-- password -->
+                                <div class="input">
+                                    <input
+                                        type="password"
+                                        name="password"
+                                        id="password"
+                                        class="input__style"
+                                        placeholder="password"
+                                    />
+                                    <img
+                                        src="./assets/icons/lock.svg"
+                                        alt=""
+                                        class="input__icon"
+                                    />
+                                </div>
+
+                                <div class="d-flex">
+                                    <label
+                                        class="sign-up__default"
+                                        for="default"
+                                    >
+                                        <input
+                                            type="checkbox"
+                                            name="default"
+                                            id="default"
+                                        />
+                                        set as default card
+                                    </label>
+                                    <a href="#" class="sign-up__re-password"
+                                        >Recovery Password</a
+                                    >
+                                </div>
+                                <button
+                                    class="btn sign-up__submit"
+                                    type="submit"
+                                >
+                                    Login
+                                </button>
+                            </form>
+                            <a href="#" class="btn sign-up__with-mail"
+                                ><img
+                                    src="./assets/icons/google-line.svg"
+                                    alt=""
+                                />Sign in with Gmail</a
+                            >
+                            <div class="sign-up__text">
+                                You have an account yet?
+                                <a href="" class="sign-up__text-link"
+                                    >Sign Up</a
+                                >
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

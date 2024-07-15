@@ -579,6 +579,10 @@ html.dark {
       contrast(84%);
   --color-icon: brightness(0) saturate(100%) invert(100%) sepia(0%)
       saturate(17%) hue-rotate(345deg) brightness(106%) contrast(104%);
+  --bgc-sign-up: #292e39;
+  --bgc-sign-up-2: #171c28;
+  --sign-up-text-color-2: #9e9da8;
+  --sign-up-text-color-3: #d2d1d6;
 }
 
 html {
@@ -635,9 +639,24 @@ html {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.45; /* 144.444% */
+  margin: 30px auto 0;
+}
+.sign-up__img-left {
+  display: flex;
+  margin: 0 auto;
 }
 .sign-up__right {
   padding: 50px 130px;
+}
+.sign-up__row {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767.98px) {
+  .sign-up__row {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
 }
 .sign-up__title {
   color: var(--text-color-primary);
